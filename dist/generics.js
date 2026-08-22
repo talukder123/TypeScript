@@ -9,5 +9,5 @@ function useState(initialValue) {
 }
 useState("Hello");
 useState(335);
-useState({ name: "Talukder", isLoggedIn: false }); //-- type is user here
+console.log(useState({ name: "Talukder", isLoggedIn: false }));
 //# sourceMappingURL=generics.js.map

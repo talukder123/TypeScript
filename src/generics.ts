@@ -18,4 +18,5 @@ interface user {
     isLoggedIn : boolean
 }
 
-useState<user>({name : "Talukder", isLoggedIn : false}) //-- type is user here
+console.log(useState<user>({name : "Talukder", isLoggedIn : false}));
+
